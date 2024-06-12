@@ -1,0 +1,28 @@
+{% comment %} <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hello World</p>
+    <p>The Factorial of  {{param2}}  is  {{param1}}</p>
+</body>
+</html> {% endcomment %}
+<!-- app1/templates/index.html -->
+<!-- app1/templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Combinations</title>
+</head>
+<body>
+    <h1>All combinations of the word "{{ word }}"</h1>
+    <ul>
+        {% for comb in combinations %}
+            <li>{{ comb }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Factorial Calculator</title>
+</head>
+<body>
+    <h1>Factorial Calculator</h1>
+    <ul>
+        {% for number, result in factorials.items %}
+            <li>Factorial of {{ number }} is {{ result }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
